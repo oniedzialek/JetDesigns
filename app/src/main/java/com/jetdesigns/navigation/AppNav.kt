@@ -23,8 +23,18 @@ import com.jetdesigns.presentation.basicComponents.TextSchowcase
 import androidx.compose.material3.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.jetdesigns.presentation.advancedComponents.BottomSheetShowcase
+import com.jetdesigns.presentation.advancedComponents.DialogsShowcase
+import com.jetdesigns.presentation.advancedComponents.ExpandableLayoutShowcase
+import com.jetdesigns.presentation.advancedComponents.GesturesShowcase
 import com.jetdesigns.presentation.advancedComponents.GridsShowcase
 import com.jetdesigns.presentation.advancedComponents.LazyShowcase
+import com.jetdesigns.presentation.advancedComponents.PagingShowcase
+import com.jetdesigns.presentation.advancedComponents.TabShowcase
+import com.jetdesigns.presentation.designs.ChatDesign
+import com.jetdesigns.presentation.designs.LoginDesign
+import com.jetdesigns.presentation.designs.SettingsDesign
+import com.jetdesigns.presentation.designs.UserProfileDesign
 
 
 @Composable
@@ -71,6 +81,17 @@ fun AppNav() {
 
             composable("lazyShowcase") { LazyShowcase() }
             composable("gridsShowcase") { GridsShowcase() }
+            composable("expandableLayoutShowcase") { ExpandableLayoutShowcase() }
+            composable("bottomSheetShowcase") { BottomSheetShowcase() }
+            composable("tabShowcase") { TabShowcase() }
+            composable("pagingShowcase") { PagingShowcase() }
+            composable("dialogsShowcase") { DialogsShowcase() }
+            composable("gesturesShowcase") { GesturesShowcase() }
+
+            composable("loginDesign") { LoginDesign() }
+            composable("userProfileDesign") { UserProfileDesign() }
+            composable("chatDesign") { ChatDesign() }
+            composable("settingsDesign") { SettingsDesign() }
             // Dodaj pozostałe ścieżki do komponentów, jak wcześniej
         }
     }

@@ -76,4 +76,15 @@ dependencies {
     implementation ("androidx.compose.material3:material3:1.2.1") // Zmieniaj wersję na najnowszą dostępną
     implementation ("androidx.activity:activity-compose:1.6.0")
     implementation ("androidx.navigation:navigation-compose:2.5.1")
+
+    //DRAWER
+    implementation(platform("androidx.compose:compose-bom:2024.05.00"))
+//PAGING
+    implementation ("androidx.paging:paging-compose:3.2.1")
+
+    //IKONY
+    implementation ("androidx.compose.material:material-icons-core:1.6.7")
+    implementation ("androidx.compose.material:material-icons-extended:1.6.7")
+
+
 }

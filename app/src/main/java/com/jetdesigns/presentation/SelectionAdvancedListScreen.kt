@@ -50,8 +50,52 @@ fun SelectionAdvancedListScreen(navController: NavController){
             colors = ButtonDefaults.buttonColors(containerColor = yellow2),
             modifier = buttonModifier
         ) {
-            Text(text = "Grid", color = textColor)
+            Text(text = "Grid layout", color = textColor)
         }
+
+        Button(
+            onClick = { navController.navigate("expandableLayoutShowcase") },
+            colors = ButtonDefaults.buttonColors(containerColor = yellow3),
+            modifier = buttonModifier
+        ) {
+            Text(text = "Expandable layout", color = textColor)
+        }
+        Button(
+            onClick = { navController.navigate("bottomSheetShowcase") },
+            colors = ButtonDefaults.buttonColors(containerColor = yellow4),
+            modifier = buttonModifier
+        ) {
+            Text(text = "Bottom Sheet", color = textColor)
+        }
+        Button(
+            onClick = { navController.navigate("tabShowcase") },
+            colors = ButtonDefaults.buttonColors(containerColor = yellow5),
+            modifier = buttonModifier
+        ) {
+            Text(text = "Tab", color = textColor)
+        }
+        Button(
+            onClick = { navController.navigate("pagingShowcase") },
+            colors = ButtonDefaults.buttonColors(containerColor = yellow6),
+            modifier = buttonModifier
+        ) {
+            Text(text = "Paging", color = textColor)
+        }
+        Button(
+            onClick = { navController.navigate("dialogsShowcase") },
+            colors = ButtonDefaults.buttonColors(containerColor = yellow6),
+            modifier = buttonModifier
+        ) {
+            Text(text = "Dialogs", color = textColor)
+        }
+        Button(
+            onClick = { navController.navigate("gesturesShowcase") },
+            colors = ButtonDefaults.buttonColors(containerColor = yellow6),
+            modifier = buttonModifier
+        ) {
+            Text(text = "Gestures", color = textColor)
+        }
+
 
 
 
