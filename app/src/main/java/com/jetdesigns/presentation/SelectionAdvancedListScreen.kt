@@ -95,11 +95,5 @@ fun SelectionAdvancedListScreen(navController: NavController){
         ) {
             Text(text = "Gestures", color = textColor)
         }
-
-
-
-
-
     }
-
 }

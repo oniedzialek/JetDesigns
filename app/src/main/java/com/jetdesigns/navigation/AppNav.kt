@@ -36,7 +36,6 @@ import com.jetdesigns.presentation.designs.LoginDesign
 import com.jetdesigns.presentation.designs.SettingsDesign
 import com.jetdesigns.presentation.designs.UserProfileDesign
 
-
 @Composable
 fun AppNav() {
     val navController = rememberNavController()
